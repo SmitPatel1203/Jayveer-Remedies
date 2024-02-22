@@ -374,7 +374,6 @@
     padding-top: 0;
 }
 
-
 /*** Team ***/
 .team-item {
     position: relative;
@@ -564,6 +563,9 @@
 .submenu {
     list-style: none;
 }
+.position-relative {
+    text-align: center;
+}
 
 @media only screen and (max-width: 768px) {
 .dropdown .submenu>div {
@@ -588,4 +590,5 @@
         left: 0;
         top: 100%;
     }
+}
 }
